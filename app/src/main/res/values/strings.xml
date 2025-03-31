@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">CyberCrack</string>
+    <string name="hacker_logo">Hacker Logo</string>
+    <string name="encryption_and_decryption_tasks">Encryption and Decryption Tasks</string>
+    <string name="crack_the_password">CRACK THE PASSWORD</string>
+    <string name="problem_description">Consider a situation :
+        A person slipped this motor and met critical accident and lining on the road crowd came up and call for ambulance and cops called ethical hacker for unlocking mobile phone password to inform to family John is a dog lover. His pet\'s name is Rex .</string>
+    <string name="loading_scenario">Loading scenario...</string>
+    <string name="clue_box">CLUE BOX</string>
+    <string name="get_clue">Get Clue</string>
+    <string name="brute_force">Brute Force</string>
+    <string name="dictionary_attack">Dictionary Attack</string>
+    <string name="enter_password">Enter password...</string>
+    <string name="attempts_left">Attempts left: %d</string>
+    <string name="check_password">Check Password</string>
+    <string name="result_placeholder">Result will appear here...</string>
+
+    <!-- New strings -->
+    <string name="access_granted">✅ ACCESS GRANTED! SYSTEM BREACHED!</string>
+    <string name="intrusion_detected">❌ INTRUSION DETECTED! TRY AGAIN!</string>
+    <string name="system_locked">🚫 SYSTEM LOCKED! RESETTING...</string>
+    <string name="password_cracked">Password cracked successfully!</string>
+    <string name="failed_attempt">Failed attempt. %d tries remaining</string>
+    <string name="audio_error">Audio module offline</string>
+    <string name="new_target_acquired">New target acquired</string>
+
+    <!-- Scenario Descriptions -->
+    <string name="scenario_1_desc">A person was found unconscious on the road. Police need to unlock his phone. Clue: His dog\'s name is Rex.</string>
+    <string name="scenario_2_desc">A rockstar was found unconscious in his studio. Manager needs access. Clue: Favorite number is 69, nickname is TheEagle.</string>
+    <string name="scenario_3_desc">Journalist investigating a scam disappeared. Note found: \'My first car was 8745.\'</string>
+    <string name="scenario_4_desc">Child lost in mall. Loves Spider-Man, lucky number is 77.</string>
+    <string name="scenario_5_desc">CEO\'s laptop seized in fraud case. Assistant says password contains \'Admin\' and today\'s date.</string>
+    <string name="scenario_6_desc">Hacker left an encrypted file. Note says: \'My first hack was on Yahoo! in 1996\'</string>
+    <string name="scenario_7_desc">Student\'s diary needs unlocking. Known to use: school name + graduation year.</string>
+    <string name="scenario_8_desc">Retired spy\'s safe needs opening. His codename was \'Phoenix\' and service number was 355.</string>
+    <string name="scenario_9_desc">Gamer\'s account was hacked. His favorite character is \'Mario\' and he always uses 3 exclamation marks.</string>
+    <string name="scenario_10_desc">Scientist\'s research is locked. Lab number is 42 and element is Au.</string>
+
+
+    <!-- Scenario Answers -->
+    <string name="scenario_1_answer">Rex</string>
+    <string name="scenario_2_answer">TheEagle69</string>
+    <string name="scenario_3_answer">8745</string>
+    <string name="scenario_4_answer">SpiderMan77</string>
+    <string name="scenario_5_answer">Admin123</string> <!-- Replace 123 with actual date handling if needed -->
+    <string name="scenario_6_answer">Yahoo1996</string>
+    <string name="scenario_7_answer">Lincoln2024</string>
+    <string name="scenario_8_answer">Phoenix355</string>
+    <string name="scenario_9_answer">Mario!!!</string>
+    <string name="scenario_10_answer">42Au</string>
+
+    <!-- Clue Strings -->
+    <string name="clue_1_1">3-letter word</string>
+    <string name="clue_1_2">Starts with \'R\'</string>
+    <string name="clue_1_3">Common pet name</string>
+    <string name="clue_2_1">Contains \'69\'</string>
+    <string name="clue_2_2">Nickname + Number</string>
+    <string name="clue_2_3">Two words combined</string>
+
+    <string name="clue_prefix">CLUE: %s</string>
+    <string name="no_more_clues">NO MORE CLUES AVAILABLE</string>
+    <string name="clue_revealed">Clue revealed</string>
+    <string name="clue_limit_reached">Clue limit reached</string>
+    <string name="bruteforce_started">Launching Hydra Bruteforce module...</string>
+    <string name="bruteforce_complete">Bruteforce complete! Found pattern</string>
+    <string name="bruteforce_data_collected">BRUTEFORCE DATA COLLECTED</string>
+    <string name="dictionary_attack_started">Executing JohnTheRipper dictionary attack...</string>
+    <string name="dictionary_suggestions">Possible matches: %s</string>
+    <string name="no_dictionary_matches">No dictionary patterns found</string>
+
+
+    <!-- Dynamic Clue Strings -->
+    <string name="dynamic_clue_length">%d characters long</string>
+    <string name="dynamic_clue_contains_numbers">Contains numbers</string>
+    <string name="dynamic_clue_letters_only">Letters only</string>
+    <string name="dynamic_clue_has_capitals">Has capital letters</string>
+    <string name="dynamic_clue_all_lowercase">All lowercase</string>
+    <string name="enter_command">Enter command...</string>
+    <string name="execute">Execute</string>
+
+
+</resources>

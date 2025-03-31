@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252B38"
+    tools:context=".MainHome"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="50dp">
+
+            <!-- Floating Curved Card -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_margin="10dp"
+                android:background="#9297D7"
+                android:gravity="center"
+                app:cardCornerRadius="24dp"
+                app:cardElevation="10dp"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="76dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/hacker_logo"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hacker"
+                    tools:layout_editor_absoluteX="26dp"
+                    tools:layout_editor_absoluteY="76dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <!-- Dashboard Label -->
+            <Button
+                android:id="@+id/btn_dashboard"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="DASHBOARD"
+                android:padding="12dp"
+                android:background="@drawable/button_rounded"
+                android:textAllCaps="false"
+                android:textColor="@color/button_text"
+                android:elevation="6dp"
+                android:fontFamily="sans-serif-medium"/>
+
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="80dp"
+                android:text="Challenges"
+                android:textAlignment="center"
+                android:textSize="50sp"
+                android:textColor="#9FEF00"
+                android:textStyle="bold">
+
+            </TextView>
+            <!-- Buttons Grid Layout -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                android:padding="12dp"
+                android:rowCount="2"
+                android:layout_marginTop="10dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="364dp">
+
+                <!-- Crack the Password Button -->
+                <Button
+                    android:id="@+id/btn_crack_password"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#182F54"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="@string/crack_the_password"
+                    android:textAllCaps="false"
+                    tools:ignore="TextSizeCheck"
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="374dp" />
+
+                <!-- Encryption & Decryption Tasks -->
+                <Button
+                    android:id="@+id/btn_encryption"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#182F54"
+                    android:padding="10dp"
+                    android:textSize="20dp"
+                    android:text="@string/encryption_and_decryption_tasks"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    tools:layout_editor_absoluteX="176dp"
+                    tools:layout_editor_absoluteY="374dp" />
+
+                <!-- Time-based Missions -->
+                <Button
+                    android:id="@+id/btn_time_missions"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:backgroundTint="#182F54"
+                    android:padding="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Time-based Missions"
+                    android:textAllCaps="false"
+                    tools:ignore="TextSizeCheck"
+                    tools:layout_editor_absoluteX="20dp"
+                    tools:layout_editor_absoluteY="474dp" />
+
+                <!-- Vulnerability Detection -->
+                <Button
+                    android:id="@+id/btn_vulnerability"
+                    android:layout_width="180dp"
+                    android:layout_height="100dp"
+                    android:textStyle="bold"
+                    android:backgroundTint="#182F54"
+                    android:padding="10dp"
+                    android:text="Vulnerability Detection"
+                    android:textAllCaps="false"
+                    android:textSize="20dp"
+                    tools:ignore="TextSizeCheck"
+                    tools:layout_editor_absoluteX="176dp"
+                    tools:layout_editor_absoluteY="474dp" />
+
+            </GridLayout>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                android:background="?android:attr/selectableItemBackground"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitCenter"
+                android:src="@drawable/work">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
